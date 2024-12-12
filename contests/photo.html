@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Our Cat Photo Contest - PurrfectPals</title>
+    <meta name="description" content="Enter your beloved cat in our monthly photo contest. Win amazing prizes and share your furry friend with our community!">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen flex flex-col bg-gray-50">
+    <header class="bg-orange-100 shadow-md">
+        <div class="container mx-auto px-4 py-6">
+            <nav class="flex flex-wrap items-center justify-between">
+                <a href="/generated-website-1734036410714/" class="flex items-center space-x-2">
+                    <div class="w-10 h-10 bg-orange-400 rounded-full flex items-center justify-center">
+                        <div class="w-6 h-6 border-4 border-white rounded-full"></div>
+                    </div>
+                    <span class="text-2xl font-bold text-orange-600">PurrfectPals</span>
+                </a>
+                
+                <button class="lg:hidden p-2" aria-label="Toggle Menu">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+
+                <div class="hidden lg:flex w-full lg:w-auto mt-4 lg:mt-0">
+                    <ul class="flex flex-col lg:flex-row space-y-2 lg:space-y-0 lg:space-x-6">
+                        <li><a href="/generated-website-1734036410714/breeds.html" class="text-orange-800 hover:text-orange-600">Cat Breeds</a></li>
+                        <li><a href="/generated-website-1734036410714/care.html" class="text-orange-800 hover:text-orange-600">Care Tips</a></li>
+                        <li><a href="/generated-website-1734036410714/gallery.html" class="text-orange-800 hover:text-orange-600">Photo Gallery</a></li>
+                        <li><a href="/generated-website-1734036410714/community.html" class="text-orange-800 hover:text-orange-600">Community</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-grow container mx-auto px-4 py-8">
+        <h1 class="text-3xl font-bold text-orange-600 mb-8">Monthly Cat Photo Contest</h1>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h2 class="text-xl font-bold text-orange-600 mb-4">Submit Your Entry</h2>
+                <form method="GET" action="/generated-website-1734036410714/contest/submit" class="space-y-4">
+                    <div>
+                        <label class="block text-gray-700 mb-2" for="catName">Cat's Name</label>
+                        <input type="text" id="catName" name="catName" required class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-orange-400">
+                    </div>
+                    <div>
+                        <label class="block text-gray-700 mb-2" for="category">Category</label>
+                        <select id="category" name="category" required class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-orange-400">
+                            <option value="cutest">Cutest Cat</option>
+                            <option value="funny">Funniest Moment</option>
+                            <option value="sleeping">Sleeping Beauty</option>
+                            <option value="action">Action Shot</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-gray-700 mb-2" for="photoUpload">Upload Photo</label>
+                        <input type="file" id="photoUpload" name="photoUpload" accept="image/*" required class="w-full">
+                    </div>
+                    <button type="submit" class="w-full bg-orange-500 text-white py-2 px-4 rounded-lg hover:bg-orange-600 transition-colors">Submit Entry</button>
+                </form>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h2 class="text-xl font-bold text-orange-600 mb-4">Contest Details</h2>
+                <div class="space-y-4">
+                    <div class="border-b pb-4">
+                        <h3 class="font-semibold text-lg mb-2">Prizes</h3>
+                        <ul class="list-disc list-inside text-gray-700">
+                            <li>1st Place: 1-year supply of premium cat food</li>
+                            <li>2nd Place: Luxury cat tree</li>
+                            <li>3rd Place: Deluxe grooming kit</li>
+                            <li>People's Choice: Custom cat portrait</li>
+                        </ul>
+                    </div>
+                    <div class="border-b pb-4">
+                        <h3 class="font-semibold text-lg mb-2">Important Dates</h3>
+                        <p class="text-gray-700">Submission Deadline: March 31, 2024</p>
+                        <p class="text-gray-700">Voting Period: April 1-7, 2024</p>
+                        <p class="text-gray-700">Winners Announced: April 10, 2024</p>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-lg mb-2">Rules</h3>
+                        <ul class="list-disc list-inside text-gray-700">
+                            <li>One entry per household</li>
+                            <li>Photo must be original</li>
+                            <li>Maximum file size: 5MB</li>
+                            <li>Accepted formats: JPG, PNG</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-8 bg-white rounded-lg shadow-md p-6">
+            <h2 class="text-xl font-bold text-orange-600 mb-4">Previous Winners</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <a href="/generated-website-1734036410714/contest/winners/february.html" class="block hover:opacity-90 transition-opacity">
+                    <div class="bg-orange-100 rounded-lg p-4">
+                        <div class="aspect-square bg-orange-200 rounded-lg mb-2"></div>
+                        <h3 class="font-semibold">February Winner</h3>
+                        <p class="text-gray-600">Mr. Whiskers - "Sleeping Beauty"</p>
+                    </div>
+                </a>
+                <a href="/generated-website-1734036410714/contest/winners/january.html" class="block hover:opacity-90 transition-opacity">
+                    <div class="bg-orange-100 rounded-lg p-4">
+                        <div class="aspect-square bg-orange-200 rounded-lg mb-2"></div>
+                        <h3 class="font-semibold">January Winner</h3>
+                        <p class="text-gray-600">Luna - "Action Shot"</p>
+                    </div>
+                </a>
+                <a href="/generated-website-1734036410714/contest/winners/december.html" class="block hover:opacity-90 transition-opacity">
+                    <div class="bg-orange-100 rounded-lg p-4">
+                        <div class="aspect-square bg-orange-200 rounded-lg mb-2"></div>
+                        <h3 class="font-semibold">December Winner</h3>
+                        <p class="text-gray-600">Milo - "Funniest Moment"</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-orange-100 mt-auto">
+        <div class="container mx-auto px-4 py-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div>
+                    <h3 class="text-lg font-semibold text-orange-800 mb-2">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/generated-website-1734036410714/about.html" class="text-orange-700 hover:text-orange-600">About Us</a></li>
+                        <li><a href="/generated-website-1734036410714/contact.html" class="text-orange-700 hover:text-orange-600">Contact</a></li>
+                        <li><a href="/generated-website-1734036410714/privacy.html" class="text-orange-700 hover:text-orange-600">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold text-orange-800 mb-2">Connect With Us</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/generated-website-1734036410714/newsletter.html" class="text-orange-700 hover:text-orange-600">Newsletter</a></li>
+                        <li><a href="/generated-website-1734036410714/social.html" class="text-orange-700 hover:text-orange-600">Social Media</a></li>
+                        <li><a href="/generated-website-1734036410714/blog.html" class="text-orange-700 hover:text-orange-600">Blog</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold text-orange-800 mb-2">Resources</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/generated-website-1734036410714/faq.html" class="text-orange-700 hover:text-orange-600">FAQs</a></li>
+                        <li><a href="/generated-website-1734036410714/support.html" class="text-orange-700 hover:text-orange-600">Support</a></li>
+                        <li><a href="/generated-website-1734036410714/sitemap.html" class="text-orange-700 hover:text-orange-600">Sitemap</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="mt-6 pt-6 border-t border-orange-200 text-center text-orange-700">
+                <p>&copy; 2024 PurrfectPals. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
